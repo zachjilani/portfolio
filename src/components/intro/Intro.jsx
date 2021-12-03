@@ -11,7 +11,7 @@ export default function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 120,
-      strings: ['Java', 'Python', 'React.js', 'C++', 'SQL'] })
+      strings: ['[Java]', '[Python]', '[React.js]', '[C++]', '[SQL]'] })
   }, [])
 
   return (
@@ -24,8 +24,8 @@ export default function Intro() {
       <div className="right">
         <div className="wrapper">
           <h2>Hello, I'm </h2>
-          <h1>Zach</h1>
-          <h3>Software Engineer: <span ref={textRef}></span></h3>
+          <h1>Zach Jilani</h1>
+          <h3>Software Engineer <span ref={textRef}></span></h3>
         </div>
         <a href="#portfolio">
           <img src="assets/down.png" alt="" />

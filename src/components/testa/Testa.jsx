@@ -1,4 +1,4 @@
-import "./testa.scss"
+import "./testamonials.scss"
 
 export default function Testa() {
   return (

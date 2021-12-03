@@ -1,5 +1,6 @@
 .intro{
-  background-color: white;
+  background-color: black;
+  // background-color: rgb(194, 194, 194);
   display: flex;
 
   .left{
@@ -36,17 +37,20 @@
       h1{
         font-size: 60px;
         margin: 10px 0;
+        color: rgb(37, 126, 63);
       }
 
       h2{
         font-size: 35px;
+        color: rgb(37, 126, 63);
       }
 
       h3{
         font-size: 30px;
+        color: rgb(37, 126, 63);
         span{
           font-size: inherit;
-          color: rgb(36, 150, 70);
+          color: rgb(37, 126, 63);
         }
       }
 
