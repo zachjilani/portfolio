@@ -1,1 +1,10 @@
 $mainColor: rgb(41, 98, 173);
+$secondaryColor: rgb(37, 126, 63);
+
+$width: 768px;
+
+@mixin mobile{
+  @media (max-width: #{$width}){
+    @content
+  }
+}

@@ -2,7 +2,6 @@ import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
 import Works from "./components/works/Works";
-import Testa from "./components/testa/Testa";
 import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu";
 import "./app.scss"
@@ -18,7 +17,6 @@ function App() {
         <Intro/>
         <Portfolio/>
         <Works/>
-        <Testa/>
         <Contact/>
       </div>
     </div>
