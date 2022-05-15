@@ -8,7 +8,7 @@
 
   h1{
     font-size: 50px;
-    color: $secondaryColor;
+    color: $mainColor;
 
     @include mobile{
       font-size: 20px;

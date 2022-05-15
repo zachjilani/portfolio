@@ -3,8 +3,9 @@ import Portfoliolist from "../portfoliolist/PortfolioList";
 import "./portfolio.scss"
 import {
   featuredPortfolio,
-  webPortfolio,
-  codePortfolio
+  algorithmsPortfolio,
+  codePortfolio,
+  resumePortfolio
 } from "../../data";
 
 export default function Portfolio() {
@@ -18,12 +19,16 @@ export default function Portfolio() {
       title: "Tuner App",
     },
     {
-      id: "web",
+      id: "code",
+      title: "LeetCode",
+    },
+    {
+      id: "algorithms",
       title: "Algorithms",
     },
     {
-      id: "code",
-      title: "LeetCode",
+      id: "resume",
+      title: "Resume",
     },
   ];
 
@@ -32,11 +37,14 @@ export default function Portfolio() {
       case "featured":
         setData(featuredPortfolio);
         break;
-      case "web":
-        setData(webPortfolio);
+      case "algorithms":
+        setData(algorithmsPortfolio);
         break;
       case "code":
         setData(codePortfolio);
+        break;
+      case "resume":
+        setData(resumePortfolio);
         break;
       default:
         setData(featuredPortfolio);

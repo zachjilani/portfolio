@@ -25,6 +25,7 @@
       float: right;
 
       @include mobile{
+        width: 450px;
         align-items: flex-start;
       }
 

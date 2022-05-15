@@ -7,6 +7,17 @@
   justify-content: center;
   position: relative;
 
+  h1{
+    position: absolute;
+    top: 0;
+    font-size: 50px;
+    color: $mainColor;
+
+    @include mobile{
+      font-size: 20px;
+    }
+  }
+
   .arrow{
     height: 50px;
     position: absolute;
