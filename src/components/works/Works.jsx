@@ -7,9 +7,9 @@ export default function Works() {
     {
       id: "1",
       icon: "./assets/quixi.png",
-      title: "Web Design",
+      title: "Full Stack Engineer",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        "Creation of new automated systems for companies using Quixi, data management and manipulation, and revision of old systems.",
       img:
         "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
     },
@@ -41,7 +41,7 @@ export default function Works() {
 
   return (
     <div className="works" id='works'>
-      <h1>Projects</h1>
+      <h1>Works</h1>
       <div className="slider" style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
         {data.map(d=>(
           <div className="container">

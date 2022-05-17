@@ -2,7 +2,7 @@ export const featuredPortfolio = [
   {
     id: 1,
     title: "Home",
-    img: "https://pbs.twimg.com/profile_images/924624402678923266/K8DrDmd2_400x400.jpg"
+    img: "assets/home.png"
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ export const algorithmsPortfolio = [
   {
     id: 1,
     title: "C++ Algorithms",
-    img: "https://pbs.twimg.com/profile_images/924624402678923266/K8DrDmd2_400x400.jpg"
+    img: "assets/cpp.png"
   },
   // {
   //   id: 2,
